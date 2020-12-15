@@ -1,9 +1,10 @@
-package course.labs.intentslab;
+package coursera.labs.intentslab;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -66,8 +67,8 @@ public class ActivityLoaderActivity extends Activity {
 		Log.i(TAG,"Entered startExplicitActivation()");
 		
 		// TODO - Create a new intent to launch the ExplicitlyLoadedActivity class
-		Intent explicitIntent = null;
-		
+		//Intent explicitIntent = null;
+		Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 		// TODO - Start an Activity using that intent and the request code defined above
 		
         
@@ -108,7 +109,7 @@ public class ActivityLoaderActivity extends Activity {
 		// RESULT_OK result code and a recognized request code
 		// If so, update the Textview showing the user-entered text.
 
-	
+
     
     
     

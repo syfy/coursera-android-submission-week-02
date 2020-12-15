@@ -1,4 +1,4 @@
-package course.labs.intentslab;
+package coursera.labs.intentslab;
 
 import android.app.Activity;
 import android.content.Intent;
